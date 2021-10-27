@@ -6,8 +6,8 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     permissions:
-      issues: CodeNinjah thanks you for posting this issue and will respond within 2-5 workdays
-      pull-requests: CodeNinjah thanks you for your pull request
+      issues: 'CodeNinjah thanks you for posting this issue and will respond within 2-5 workdays'
+      pull-requests: 'CodeNinjah thanks you for your pull request'
     steps:
     - uses: actions/first-interaction@v1
       with:
