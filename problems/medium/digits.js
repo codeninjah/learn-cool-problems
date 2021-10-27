@@ -4,7 +4,13 @@
 
 const digits = (n) => {
 	// Your code here...
-	return []
+	var arr = []
+
+	for(var i = 0; i < n.length; i++){
+		arr.push(n[i])
+	}
+
+	return arr
 }
 
 const tests = [
