@@ -2,7 +2,11 @@
 // Write a program that takes an argument n and returns the product of 1,…,n.
 const prod1toN = (n) => {
 	// Your code here...
-	return -1
+	var result = 1;
+	for(var i = 1; i = n; i++){
+		result *= i
+	}
+	return result
 }
 
 const tests = [
