@@ -2,7 +2,11 @@
 // Write a program that takes an argument n and returns the sum of the numbers 1 to n (inclusive)
 const sum1toN = (n) => {
 	// Your code here...
-	return -1
+	var a = 0;
+	for(var i = 0; i = n; i++){
+		a += i
+	}
+	return a
 }
 
 const tests = [
