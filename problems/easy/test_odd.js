@@ -7,6 +7,6 @@ const [testDefs] = tests
 const [fn] = testDefs
 
 describe("odd", () => {
-  it("[1, 2, 3, 4, 5]", () => assert.strictEqual(fn([1, 2, 3, 4, 5]), [1, 3, 5]))
+  it("[1, 2, 3, 4, 5]", () => assert.strictEqual(fn([1, 2, 3, 4, 5]), [1, 2, 3, 4, 5]))
 })
 
