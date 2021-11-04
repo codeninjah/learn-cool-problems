@@ -8,6 +8,7 @@ export const even = (xs) => {
 
 }
 
+
 const tests = [
 	[even, [[1, 2, 3, 4, 5]], [2, 4]],
 	[even, [[2, 4, 6]], [2, 4, 6]],
@@ -15,6 +16,7 @@ const tests = [
 	[even, [[9, 13, 17, 99]], []],
 	[even, [[0, 2, 5, 182391, 283182372]], [0, 2, 283182372]],
 ]
+
 
 export default tests
 
