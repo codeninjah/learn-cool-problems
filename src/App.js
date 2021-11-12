@@ -26,6 +26,8 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 const problems = {...easy, ...medium, ...hard}
 
+//const prtest = "Pull request test"
+
 const runTest = (fn, args, expected) => {
 	const result = fn(...args)
 	const success = R.equals(result, expected)
@@ -126,4 +128,5 @@ function Task({name, tests}) {
 
 
 export default App;
+
 
